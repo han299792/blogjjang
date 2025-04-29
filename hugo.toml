@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode = 'kn, en-us'
+title = 'blogjjang'
+theme = 'hugo-bearblog'
