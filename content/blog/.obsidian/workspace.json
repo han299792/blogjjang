@@ -20,37 +20,6 @@
               "icon": "lucide-file",
               "title": "test"
             }
-          },
-          {
-            "id": "1c67468560ef65ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "test2"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "c736de2a87a595e5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c925002ee0765c68",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
-            }
           }
         ]
       }
@@ -207,7 +176,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c67468560ef65ff",
+  "active": "f6be2aac2d00ee24",
   "lastOpenFiles": [
     "test2.md",
     "무제.canvas",
