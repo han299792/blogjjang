@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://blogjjang.pages.dev/</loc><lastmod>2025-04-29T00:00:00+00:00</lastmod></url><url><loc>https://blogjjang.pages.dev/blog/</loc><lastmod>2025-04-29T00:00:00+00:00</lastmod></url><url><loc>https://blogjjang.pages.dev/tags/book/</loc><lastmod>2025-04-29T00:00:00+00:00</lastmod></url><url><loc>https://blogjjang.pages.dev/tags/post/</loc><lastmod>2025-04-29T00:00:00+00:00</lastmod></url><url><loc>https://blogjjang.pages.dev/tags/</loc><lastmod>2025-04-29T00:00:00+00:00</lastmod></url><url><loc>https://blogjjang.pages.dev/blog/template/</loc><lastmod>2025-04-29T00:00:00+00:00</lastmod></url><url><loc>https://blogjjang.pages.dev/blog/%EC%95%BC%EA%B0%84-%EB%B9%84%ED%96%89/</loc><lastmod>2025-04-29T00:00:00+00:00</lastmod></url><url><loc>https://blogjjang.pages.dev/blog/%EB%AC%B4%EC%A0%9C/</loc></url><url><loc>https://blogjjang.pages.dev/categories/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://blogjjang.pages.dev/blog/templates/%EB%8F%85%ED%9B%84%EA%B0%90/</loc>
+    <lastmod>2025-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blogjjang.pages.dev/</loc>
+    <lastmod>2025-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blogjjang.pages.dev/blog/</loc>
+    <lastmod>2025-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blogjjang.pages.dev/tags/book/</loc>
+    <lastmod>2025-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blogjjang.pages.dev/tags/</loc>
+    <lastmod>2025-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blogjjang.pages.dev/blog/%EC%95%BC%EA%B0%84-%EB%B9%84%ED%96%89/</loc>
+    <lastmod>2025-04-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blogjjang.pages.dev/categories/</loc>
+  </url>
+</urlset>

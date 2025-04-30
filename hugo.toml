@@ -1,4 +1,4 @@
 baseURL = 'https://blogjjang.pages.dev'
 languageCode = 'kn, en-us'
 title = 'blogjjang'
-theme = 'hugo-bearblog'
+theme = 'paper'
