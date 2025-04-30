@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "야간 비행.md",
+                "file": "Templates/독후감.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "야간 비행"
+              "title": "독후감"
             }
           },
           {
@@ -194,8 +194,8 @@
   "lastOpenFiles": [
     "무제.md",
     "야간 비행.md",
-    "template.md",
-    "템플릿",
+    "Templates/독후감.md",
+    "Templates",
     "2025-04-29.md",
     "test2.md",
     "무제.canvas"

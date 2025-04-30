@@ -1,33 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blogs on blogjjang</title>
-    <link>https://blogjjang.pages.dev/blog/</link>
-    <description>Recent content in Blogs on blogjjang</description>
-    <generator>Hugo</generator>
-    <language>kn, en-us</language>
-    <lastBuildDate>Tue, 29 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blogjjang.pages.dev/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>test</title>
-      <link>https://blogjjang.pages.dev/blog/template/</link>
-      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://blogjjang.pages.dev/blog/template/</guid>
-      <description>&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;제목&lt;/th&gt;&#xA;          &lt;th&gt;내용&lt;/th&gt;&#xA;          &lt;th&gt;설명&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;테스트1&lt;/td&gt;&#xA;          &lt;td&gt;테스트2&lt;/td&gt;&#xA;          &lt;td&gt;테스트3&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;테스트1&lt;/td&gt;&#xA;          &lt;td&gt;테스트2&lt;/td&gt;&#xA;          &lt;td&gt;테스트3&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;테스트1&lt;/td&gt;&#xA;          &lt;td&gt;테스트2&lt;/td&gt;&#xA;          &lt;td&gt;테스트3&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;제목&lt;/th&gt;&#xA;          &lt;th&gt;내용&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2&lt;/td&gt;&#xA;          &lt;td&gt;10&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
-    </item>
-    <item>
-      <title>야간 비행</title>
-      <link>https://blogjjang.pages.dev/blog/%EC%95%BC%EA%B0%84-%EB%B9%84%ED%96%89/</link>
-      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://blogjjang.pages.dev/blog/%EC%95%BC%EA%B0%84-%EB%B9%84%ED%96%89/</guid>
-      <description>&lt;p&gt;자신의 유일한 행동에서 더 이상 자신의 양식을 찾아내지 못한다면 그것은 늙어 가고 있다는 뜻이다.&lt;/p&gt;&#xA;&lt;p&gt;그러나 펠르랭은 어느 날 언뜻 엿보게 된 그 세상의 가치에 대해 누구보다 잘 깨닫고 있으며, 저속한 찬사들은 묵직한 경멸로 물리칠 수 있는 겸손한 태도를 지님으로써 자신의 위대함을 지켜내고 있었다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://blogjjang.pages.dev/blog/%EB%AC%B4%EC%A0%9C/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blogjjang.pages.dev/blog/%EB%AC%B4%EC%A0%9C/</guid>
-      <description></description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on blogjjang</title><link>https://blogjjang.pages.dev/blog/</link><description>Recent content in Blogs on blogjjang</description><generator>Hugo</generator><language>kn, en-us</language><lastBuildDate>Tue, 29 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blogjjang.pages.dev/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>test</title><link>https://blogjjang.pages.dev/blog/template/</link><pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate><guid>https://blogjjang.pages.dev/blog/template/</guid><description>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>제목&lt;/th>
+ &lt;th>내용&lt;/th>
+ &lt;th>설명&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>테스트1&lt;/td>
+ &lt;td>테스트2&lt;/td>
+ &lt;td>테스트3&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>테스트1&lt;/td>
+ &lt;td>테스트2&lt;/td>
+ &lt;td>테스트3&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>테스트1&lt;/td>
+ &lt;td>테스트2&lt;/td>
+ &lt;td>테스트3&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;!-- raw HTML omitted -->
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>제목&lt;/th>
+ &lt;th>내용&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>1&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>2&lt;/td>
+ &lt;td>10&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;!-- raw HTML omitted --></description></item><item><title>야간 비행</title><link>https://blogjjang.pages.dev/blog/%EC%95%BC%EA%B0%84-%EB%B9%84%ED%96%89/</link><pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate><guid>https://blogjjang.pages.dev/blog/%EC%95%BC%EA%B0%84-%EB%B9%84%ED%96%89/</guid><description>&lt;p>자신의 유일한 행동에서 더 이상 자신의 양식을 찾아내지 못한다면 그것은 늙어 가고 있다는 뜻이다.&lt;/p>
+&lt;p>그러나 펠르랭은 어느 날 언뜻 엿보게 된 그 세상의 가치에 대해 누구보다 잘 깨닫고 있으며, 저속한 찬사들은 묵직한 경멸로 물리칠 수 있는 겸손한 태도를 지님으로써 자신의 위대함을 지켜내고 있었다.&lt;/p></description></item><item><title/><link>https://blogjjang.pages.dev/blog/%EB%AC%B4%EC%A0%9C/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blogjjang.pages.dev/blog/%EB%AC%B4%EC%A0%9C/</guid><description/></item></channel></rss>
