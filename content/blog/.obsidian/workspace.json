@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "메일메일/20250811 MON.md",
+                "file": "메일메일/20250808 FRI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20250811 MON"
+              "title": "20250808 FRI"
             }
           }
         ],
@@ -208,10 +208,10 @@
   },
   "active": "1eeccf6ab71b3074",
   "lastOpenFiles": [
-    "20250810 SUN.md",
+    "메일메일/20250811 MON.md",
+    "메일메일/20250808 FRI.md",
     "Templates/메일매일용 템플릿.md",
     "Templates/독후감.md",
-    "메일메일/20250811 MON.md",
     "메일메일/매일매일.md",
     "메일메일/6월 4일 수요일.md",
     "6월4일 수요일.md",

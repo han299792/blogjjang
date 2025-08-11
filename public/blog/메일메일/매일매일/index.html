@@ -20,13 +20,31 @@
   />
 
   
-  <title>{{title}} - blogjjang</title>
+  <title>매일매일 5월 4주차 질문 - blogjjang</title>
 
   
   <meta name="theme-color" />
 
-  <meta name="description" content="{{title}}
-작성일: {{date:YYYY-MM-DD}}" />
+  <meta name="description" content="JPA Fetch Join과 페이징을 함께 사용할 때 주의점을 설명해주세요
+관련 내용: jpa 동작 원리, sql 최적화, 페이징 쿼리의 동작, 컬렉션 패치 조인의 한계
+
+JPA 동작 원리
+자바 객체와 RDB간의 매핑을 자동으로 처리해주는 ORM기술로, 개발자가 직접 SQL 쿼리를 작성하지 않고도 디비 작업을 수행할 수 있게 해줌
+핵심
+
+영속성 컨텍스트
+디비에서 조회한 엔티티 객체를 저장하고 관리하는 일종의 1차 캐시 역할을 한다. 통일한 트랜잭션 내 같은 엔티티를 조회하면 영속성 컨텍스트에 저장된 객체를 반환해 동일함을 보장한다. 엔티티 객체의 상태가 변경되면 자동으로 DB에 반영하는 변경 감지 기능을 수행한다.
+EntityManager
+이 인터페이스를 통해, 영속성 컨텍스트에 엔티티를 저장, 삭제, 조회할 수 있다.
+write befind / flush
+커밋되기 전까지 쿼리를 바로 디비로 보내지 않고, 내부 임시 저장소에 저장한다. 커밋 시점에 영속성 컨텍스트의 변경 내용을 디비에 동기화하는 작업을 플러시라고 하며, 이때 실제 SQL이 디비에 저장된다.
+트랜잭션과의 연계
+@Transaction 으로 트랜잭션 관리, 영속성 컨택스트와 연결
+
+Gradle에 대해 설명해 주세요.
+ThreadLocal에 대해 설명해 주세요.
+스레드 풀 포화 정책이란 무엇인가요?
+어떤 예외가 발생하면 트랜잭션을 롤백하나요?" />
   <meta name="author" content="blogjjang" /><link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
 
   
@@ -130,24 +148,38 @@
       class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
     ><article>
   <header class="mb-14">
-    <h1 class="my-0! pb-2.5">{{title}}</h1><div class="text-xs antialiased opacity-60"><time>Apr 29, 2025</time></div></header>
+    <h1 class="my-0! pb-2.5">매일매일 5월 4주차 질문</h1><div class="text-xs antialiased opacity-60"><time>Apr 29, 2025</time></div></header>
 
-  <section><h1 id="title">{{title}}</h1>
-<p><em>작성일: {{date:YYYY-MM-DD}}</em></p>
+  <section><h1 id="jpa-fetch-join과-페이징을-함께-사용할-때-주의점을-설명해주세요">JPA Fetch Join과 페이징을 함께 사용할 때 주의점을 설명해주세요</h1>
+<p>관련 내용: jpa 동작 원리, sql 최적화, 페이징 쿼리의 동작, 컬렉션 패치 조인의 한계</p>
+<blockquote>
+<p>JPA 동작 원리</p></blockquote>
+<p>자바 객체와 RDB간의 매핑을 자동으로 처리해주는 ORM기술로, 개발자가 직접 SQL 쿼리를 작성하지 않고도 디비 작업을 수행할 수 있게 해줌</p>
+<p>핵심</p>
+<ol>
+<li>영속성 컨텍스트
+디비에서 조회한 엔티티 객체를 저장하고 관리하는 일종의 1차 캐시 역할을 한다. 통일한 트랜잭션 내 같은 엔티티를 조회하면 영속성 컨텍스트에 저장된 객체를 반환해 동일함을 보장한다. 엔티티 객체의 상태가 변경되면 자동으로 DB에 반영하는 변경 감지 기능을 수행한다.</li>
+<li><strong>EntityManager</strong>
+이 인터페이스를 통해, 영속성 컨텍스트에 엔티티를 저장, 삭제, 조회할 수 있다.</li>
+<li>write befind / flush
+커밋되기 전까지 쿼리를 바로 디비로 보내지 않고, 내부 임시 저장소에 저장한다. 커밋 시점에 영속성 컨텍스트의 변경 내용을 디비에 동기화하는 작업을 플러시라고 하며, 이때 실제 SQL이 디비에 저장된다.</li>
+<li>트랜잭션과의 연계
+@Transaction 으로 트랜잭션 관리, 영속성 컨택스트와 연결</li>
+</ol>
+<h1 id="gradle에-대해-설명해-주세요">Gradle에 대해 설명해 주세요.</h1>
+<h1 id="threadlocal에-대해-설명해-주세요">ThreadLocal에 대해 설명해 주세요.</h1>
+<h1 id="스레드-풀-포화-정책이란-무엇인가요">스레드 풀 포화 정책이란 무엇인가요?</h1>
+<h1 id="어떤-예외가-발생하면-트랜잭션을-롤백하나요">어떤 예외가 발생하면 트랜잭션을 롤백하나요?</h1>
 </section>
 
-  <footer class="mt-12 flex flex-wrap"><a
-      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
-      href="http://localhost:1313/tags/book"
-      >book</a
-    ></footer><nav
+  <nav
     class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
-  ><a class="ltr:pr-3 rtl:pl-3" href="http://localhost:1313/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/6%EC%9B%94-4%EC%9D%BC-%EC%88%98%EC%9A%94%EC%9D%BC/"
-      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>6월 4일 수요일</span></a
+  ><a class="ltr:pr-3 rtl:pl-3" href="http://localhost:1313/blog/templates/%EB%8F%85%ED%9B%84%EA%B0%90/"
+      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>{{title}}</span></a
     ><a
       class="justify-end pl-3 ltr:ml-auto rtl:mr-auto"
-      href="http://localhost:1313/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/%EB%A7%A4%EC%9D%BC%EB%A7%A4%EC%9D%BC/"
-      ><span>매일매일 5월 4주차 질문</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+      href="http://localhost:1313/blog/templates/%EB%A9%94%EC%9D%BC%EB%A7%A4%EC%9D%BC%EC%9A%A9-%ED%85%9C%ED%94%8C%EB%A6%BF/"
+      ><span>{{title}}</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
     ></nav></article></main><footer
   class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
 >

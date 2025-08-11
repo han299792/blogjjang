@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Develop on blogjjang</title>
+    <link>http://localhost:1313/tags/develop/</link>
+    <description>Recent content in Develop on blogjjang</description>
+    <generator>Hugo</generator>
+    <language>kn, en-us</language>
+    <lastBuildDate>Wed, 04 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/develop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6월 4일 수요일</title>
+      <link>http://localhost:1313/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/6%EC%9B%94-4%EC%9D%BC-%EC%88%98%EC%9A%94%EC%9D%BC/</link>
+      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/6%EC%9B%94-4%EC%9D%BC-%EC%88%98%EC%9A%94%EC%9D%BC/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;NOT IN 쿼리를 사용할 때 발생할 수 있는 문제점에 대해 서술하시오.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;NOT IN 쿼리는 부정조건으로, 주어진 값을 필터링을 해야 하기 때문에 index range scan 대신 fullscan해 더 많은 CPU사용량과 latency를 유발한다. 또한 NULL값 처리에서, NULL비교를 할 때 UNKOWN을 반환해 항상 빈 결과를 반환할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;이에 대한 대안으로NOT EXISTS와 OUTER JOIN을 사용할 수 있다. NOT EXISTS는 행 단위로 스캔해 매칭되는 첫 행을 찾자마자 중단해 존재하지 않음을 최적으로 확인한다. OUTER JOIN은 pk를 사용하여 최적화된 연산을 수행하고 인덱스를 효과적으로 사용해 NOT IN보다 훨씬 효율적이다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -20,13 +20,15 @@
   />
 
   
-  <title>{{title}} - blogjjang</title>
+  <title>6월 4일 수요일 - blogjjang</title>
 
   
   <meta name="theme-color" />
 
-  <meta name="description" content="{{title}}
-작성일: {{date:YYYY-MM-DD}}" />
+  <meta name="description" content="
+NOT IN 쿼리를 사용할 때 발생할 수 있는 문제점에 대해 서술하시오.
+NOT IN 쿼리는 부정조건으로, 주어진 값을 필터링을 해야 하기 때문에 index range scan 대신 fullscan해 더 많은 CPU사용량과 latency를 유발한다. 또한 NULL값 처리에서, NULL비교를 할 때 UNKOWN을 반환해 항상 빈 결과를 반환할 수 있다.
+이에 대한 대안으로NOT EXISTS와 OUTER JOIN을 사용할 수 있다. NOT EXISTS는 행 단위로 스캔해 매칭되는 첫 행을 찾자마자 중단해 존재하지 않음을 최적으로 확인한다. OUTER JOIN은 pk를 사용하여 최적화된 연산을 수행하고 인덱스를 효과적으로 사용해 NOT IN보다 훨씬 효율적이다." />
   <meta name="author" content="blogjjang" /><link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
 
   
@@ -130,24 +132,43 @@
       class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
     ><article>
   <header class="mb-14">
-    <h1 class="my-0! pb-2.5">{{title}}</h1><div class="text-xs antialiased opacity-60"><time>Apr 29, 2025</time></div></header>
+    <h1 class="my-0! pb-2.5">6월 4일 수요일</h1><div class="text-xs antialiased opacity-60"><time>Jun 4, 2025</time></div></header>
 
-  <section><h1 id="title">{{title}}</h1>
-<p><em>작성일: {{date:YYYY-MM-DD}}</em></p>
+  <section><blockquote>
+<p>NOT IN 쿼리를 사용할 때 발생할 수 있는 문제점에 대해 서술하시오.</p></blockquote>
+<p>NOT IN 쿼리는 부정조건으로, 주어진 값을 필터링을 해야 하기 때문에 index range scan 대신 fullscan해 더 많은 CPU사용량과 latency를 유발한다. 또한 NULL값 처리에서, NULL비교를 할 때 UNKOWN을 반환해 항상 빈 결과를 반환할 수 있다.</p>
+<p>이에 대한 대안으로NOT EXISTS와 OUTER JOIN을 사용할 수 있다. NOT EXISTS는 행 단위로 스캔해 매칭되는 첫 행을 찾자마자 중단해 존재하지 않음을 최적으로 확인한다. OUTER JOIN은 pk를 사용하여 최적화된 연산을 수행하고 인덱스를 효과적으로 사용해 NOT IN보다 훨씬 효율적이다.</p>
+<p><strong>DB Execution plan</strong>
+사용자가 SQL을 실행하여 데이터를 추출하려로 할 때, 디비 옵티마이저가 수립하는 작업 절차이다.</p>
+<ol>
+<li>SQL 해석</li>
+<li>실행 계획 수립</li>
+<li>실행
+다음과 같이 3단계로 분리할 수 있다. 데이터베이스가 쿼리를 처리하는 방법과 접근 경로를 결정하는 중요한 요소이다. 실행 계획 분석과 최적화는 쿼리의 성능을 향상시키기 위해 실행 계획을 분석하고 최적화하는 과정을 의미한다. 다음과 같은 최적화 기법이 이때 적용된다.
+1 . 인덱스 활용
+2 . 조인 방식 최적화
+3 . 테이블 파티셔닝
+4 . 통계 정보 수집
+5 . SQL 리팩토링</li>
+</ol>
+<p>출처: <a href="https://sqland.wordpress.com/2022/09/22/in-vs-not-in-vs-exists-vs-not-exists-performance-considerations/">SQL Land, IN vs NOT IN vs EXISTS vs NOT EXISTS Performance Considerations
+</a></p>
 </section>
 
   <footer class="mt-12 flex flex-wrap"><a
       class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
-      href="http://localhost:1313/tags/book"
-      >book</a
+      href="http://localhost:1313/tags/develop"
+      >develop</a
+    ><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="http://localhost:1313/tags/mail"
+      >mail</a
     ></footer><nav
     class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
-  ><a class="ltr:pr-3 rtl:pl-3" href="http://localhost:1313/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/6%EC%9B%94-4%EC%9D%BC-%EC%88%98%EC%9A%94%EC%9D%BC/"
-      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>6월 4일 수요일</span></a
-    ><a
+  ><a
       class="justify-end pl-3 ltr:ml-auto rtl:mr-auto"
-      href="http://localhost:1313/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/%EB%A7%A4%EC%9D%BC%EB%A7%A4%EC%9D%BC/"
-      ><span>매일매일 5월 4주차 질문</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+      href="http://localhost:1313/blog/templates/%EB%8F%85%ED%9B%84%EA%B0%90/"
+      ><span>{{title}}</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
     ></nav></article></main><footer
   class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
 >
