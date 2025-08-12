@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Http on blogjjang</title>
+    <link>http://localhost:1313/tags/http/</link>
+    <description>Recent content in Http on blogjjang</description>
+    <generator>Hugo</generator>
+    <language>kn, en-us</language>
+    <lastBuildDate>Mon, 11 Aug 2025 13:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/http/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTTP 메서드에서 멱등성이란 무엇인가요?</title>
+      <link>http://localhost:1313/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/20250811-mon/</link>
+      <pubDate>Mon, 11 Aug 2025 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/20250811-mon/</guid>
+      <description>&lt;h1 id=&#34;http-메서드에서-멱등성이란-무엇인가요&#34;&gt;HTTP 메서드에서 멱등성이란 무엇인가요?&lt;/h1&gt;&#xA;&lt;p&gt;Idempotent 멱등한다는 것은 한번 수행하든 여러번 수행하든 같은 결과를 내는 작업의 속성이다. HTTP에서는 GET메소드가 리소스의 변화를 일으키지 않기 때문에 여러번 호출해도 같은 결과를 내는데, 이를 멱등성이 보장된 메서드라고 할 수 있다. PUT역시 여러번 호출해도 매번 같은 리소스로 업데이트 되는 것이기 때문에 결과가 달라지지 않는다. DELETE도 여러 번 호출해도 결국 같은 리소스를 삭제하는 것이기 때문에 멱등하다. 반면  POST, PATCH는 호출할때 서버 데이터를 변경하기 때문에 멱등한 메서드가 아니다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
