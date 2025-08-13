@@ -2,37 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:58239/blog/</loc>
+    <lastmod>2025-08-11T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:58239/</loc>
+    <lastmod>2025-08-11T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:58239/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/20250808-fri/</loc>
+    <lastmod>2025-08-11T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:58239/tags/http/</loc>
     <lastmod>2025-08-11T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>http://localhost:58239/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/20250811-mon/</loc>
     <lastmod>2025-08-11T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/6%EC%9B%94-4%EC%9D%BC-%EC%88%98%EC%9A%94%EC%9D%BC/</loc>
+    <loc>http://localhost:58239/tags/</loc>
+    <lastmod>2025-08-11T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:58239/tags/db/</loc>
     <lastmod>2025-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/develop/</loc>
+    <loc>http://localhost:58239/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/20250604-wed/</loc>
     <lastmod>2025-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mail/</loc>
+    <loc>http://localhost:58239/tags/sql/</loc>
     <lastmod>2025-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/templates/%EB%8F%85%ED%9B%84%EA%B0%90/</loc>
+    <loc>http://localhost:58239/blog/templates/%EB%8F%85%ED%9B%84%EA%B0%90/</loc>
     <lastmod>2025-04-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/book/</loc>
+    <loc>http://localhost:58239/tags/book/</loc>
     <lastmod>2025-04-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/%EB%A7%A4%EC%9D%BC%EB%A7%A4%EC%9D%BC/</loc>
-    <lastmod>2025-04-29T00:00:00+00:00</lastmod>
+    <loc>http://localhost:58239/blog/templates/%EB%A9%94%EC%9D%BC%EB%A7%A4%EC%9D%BC%EC%9A%A9-%ED%85%9C%ED%94%8C%EB%A6%BF/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/templates/%EB%A9%94%EC%9D%BC%EB%A7%A4%EC%9D%BC%EC%9A%A9-%ED%85%9C%ED%94%8C%EB%A6%BF/</loc>
-  </url><url>
-    <loc>http://localhost:1313/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/20250808-fri/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:58239/categories/</loc>
   </url>
 </urlset>

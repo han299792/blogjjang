@@ -22,35 +22,21 @@
             }
           },
           {
-            "id": "8274b2fa53f78aa8",
+            "id": "4332782e93a32f8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/메일매일용 템플릿.md",
+                "file": "메일메일/20250813 WED.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "메일매일용 템플릿"
-            }
-          },
-          {
-            "id": "1eeccf6ab71b3074",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/독후감.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "독후감"
+              "title": "20250813 WED"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,14 +192,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1eeccf6ab71b3074",
+  "active": "4a4b8671323fede3",
   "lastOpenFiles": [
+    "CleanShot 2025-08-13 at 12.40.12.png",
     "Templates/메일매일용 템플릿.md",
+    "메일메일/20250813 WED.md",
     "Templates/독후감.md",
+    "메일메일/20250811 MON.md",
     "메일메일/20250808 FRI.md",
     "메일메일/20250604 WED.md",
     "메일메일/매일매일.md",
-    "메일메일/20250811 MON.md",
     "6월4일 수요일.md",
     "야간 비행.md",
     "go.md",

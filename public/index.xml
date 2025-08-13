@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blogjjang</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on blogjjang</description>
+    <title>chick chick pok pok</title>
+    <link>http://localhost:58239/</link>
+    <description>Recent content on chick chick pok pok</description>
     <generator>Hugo</generator>
     <language>kn, en-us</language>
     <lastBuildDate>Mon, 11 Aug 2025 15:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:58239/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>사용자가 웹사이트에 처음 접근했을 때 발생하는 일련의 과정에 대해 설명해주세요</title>
-      <link>http://localhost:1313/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/20250808-fri/</link>
+      <link>http://localhost:58239/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/20250808-fri/</link>
       <pubDate>Mon, 11 Aug 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/20250808-fri/</guid>
-      <description>&lt;h1 id=&#34;사용자가-웹사이트에-처음-접근했을-때-발생하는-일련의-과정에-대해-설명해주세요&#34;&gt;사용자가 웹사이트에 처음 접근했을 때 발생하는 일련의 과정에 대해 설명해주세요&lt;/h1&gt;</description>
+      <guid>http://localhost:58239/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/20250808-fri/</guid>
+      <description></description>
     </item>
     <item>
       <title>HTTP 메서드에서 멱등성이란 무엇인가요?</title>
-      <link>http://localhost:1313/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/20250811-mon/</link>
+      <link>http://localhost:58239/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/20250811-mon/</link>
       <pubDate>Mon, 11 Aug 2025 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/20250811-mon/</guid>
-      <description>&lt;h1 id=&#34;http-메서드에서-멱등성이란-무엇인가요&#34;&gt;HTTP 메서드에서 멱등성이란 무엇인가요?&lt;/h1&gt;&#xA;&lt;p&gt;Idempotent 멱등한다는 것은 한번 수행하든 여러번 수행하든 같은 결과를 내는 작업의 속성이다. HTTP에서는 GET메소드가 리소스의 변화를 일으키지 않기 때문에 여러번 호출해도 같은 결과를 내는데, 이를 멱등성이 보장된 메서드라고 할 수 있다. PUT역시 여러번 호출해도 매번 같은 리소스로 업데이트 되는 것이기 때문에 결과가 달라지지 않는다. DELETE도 여러 번 호출해도 결국 같은 리소스를 삭제하는 것이기 때문에 멱등하다. 반면  POST, PATCH는 호출할때 서버 데이터를 변경하기 때문에 멱등한 메서드가 아니다.&lt;/p&gt;</description>
+      <guid>http://localhost:58239/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/20250811-mon/</guid>
+      <description>&lt;p&gt;Idempotent 멱등한다는 것은 한번 수행하든 여러번 수행하든 같은 결과를 내는 작업의 속성이다. HTTP에서는 GET메소드가 리소스의 변화를 일으키지 않기 때문에 여러번 호출해도 같은 결과를 내는데, 이를 멱등성이 보장된 메서드라고 할 수 있다. PUT역시 여러번 호출해도 매번 같은 리소스로 업데이트 되는 것이기 때문에 결과가 달라지지 않는다. DELETE도 여러 번 호출해도 결국 같은 리소스를 삭제하는 것이기 때문에 멱등하다. 반면  POST, PATCH는 호출할때 서버 데이터를 변경하기 때문에 멱등한 메서드가 아니다.&lt;/p&gt;&#xA;&lt;h4 id=&#34;post--patch-메서드의-멱등성-구현&#34;&gt;POST,  PATCH 메서드의 멱등성 구현&lt;/h4&gt;&#xA;&lt;p&gt;멱등성은 시스템이 의도하지 않은 문제를 일으키지 않고 요청을 재시도 할 수 있기때문에, 결함없고 안전한 API를 만드는데 중요하다. 예를 들어, 결제 api는 사용자가 결제하는 시점에 네트워크나 타임아웃으로 인해 결과를 못받는 시나리오를 가정해봤을 때, 여러 번 결제가 진행되는 것을 막고 전에 받지 못한 결과만 다시 하는 식으로 구현되어 있는 것이 더 안전할 것이다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>NOT IN 쿼리를 사용할 때 발생할 수 있는 문제점에 대해 서술하시오.</title>
-      <link>http://localhost:1313/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/20250604-wed/</link>
+      <link>http://localhost:58239/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/20250604-wed/</link>
       <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/20250604-wed/</guid>
+      <guid>http://localhost:58239/blog/%EB%A9%94%EC%9D%BC%EB%A9%94%EC%9D%BC/20250604-wed/</guid>
       <description>&lt;p&gt;NOT IN 쿼리는 부정조건으로, 주어진 값을 필터링을 해야 하기 때문에 index range scan 대신 fullscan해 더 많은 CPU사용량과 latency를 유발한다. 또한 NULL값 처리에서, NULL비교를 할 때 UNKOWN을 반환해 항상 빈 결과를 반환할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;이에 대한 대안으로NOT EXISTS와 OUTER JOIN을 사용할 수 있다. NOT EXISTS는 행 단위로 스캔해 매칭되는 첫 행을 찾자마자 중단해 존재하지 않음을 최적으로 확인한다. OUTER JOIN은 pk를 사용하여 최적화된 연산을 수행하고 인덱스를 효과적으로 사용해 NOT IN보다 훨씬 효율적이다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>{{title}}</title>
-      <link>http://localhost:1313/blog/templates/%EB%8F%85%ED%9B%84%EA%B0%90/</link>
+      <link>http://localhost:58239/blog/templates/%EB%8F%85%ED%9B%84%EA%B0%90/</link>
       <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/templates/%EB%8F%85%ED%9B%84%EA%B0%90/</guid>
+      <guid>http://localhost:58239/blog/templates/%EB%8F%85%ED%9B%84%EA%B0%90/</guid>
       <description>&lt;h1 id=&#34;title&#34;&gt;{{title}}&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;작성일: {{date:YYYY-MM-DD}}&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>{{title}}</title>
-      <link>http://localhost:1313/blog/templates/%EB%A9%94%EC%9D%BC%EB%A7%A4%EC%9D%BC%EC%9A%A9-%ED%85%9C%ED%94%8C%EB%A6%BF/</link>
+      <title></title>
+      <link>http://localhost:58239/blog/templates/%EB%A9%94%EC%9D%BC%EB%A7%A4%EC%9D%BC%EC%9A%A9-%ED%85%9C%ED%94%8C%EB%A6%BF/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/templates/%EB%A9%94%EC%9D%BC%EB%A7%A4%EC%9D%BC%EC%9A%A9-%ED%85%9C%ED%94%8C%EB%A6%BF/</guid>
+      <guid>http://localhost:58239/blog/templates/%EB%A9%94%EC%9D%BC%EB%A7%A4%EC%9D%BC%EC%9A%A9-%ED%85%9C%ED%94%8C%EB%A6%BF/</guid>
       <description></description>
     </item>
   </channel>

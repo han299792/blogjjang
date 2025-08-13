@@ -1,4 +1,5 @@
 baseURL = 'https://blogjjang.pages.dev'
 languageCode = 'kn, en-us'
-title = 'blogjjang'
+title = 'chick chick pok pok'
 theme = 'paper'
+ignoreFiles = ["content/Templates/.*"]
